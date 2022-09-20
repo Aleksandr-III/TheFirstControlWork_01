@@ -14,3 +14,15 @@ for (int i = 0; i < size; i++)
         position++;
     }
 }
+Console.WriteLine($"Вы ввели элементы меньше либо равны 3 символам");
+PrintArray(arrayStrings);
+
+
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i] + " "}");
+    }
+    Console.WriteLine();
+}
